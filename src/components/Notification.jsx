@@ -6,4 +6,3 @@ export class Notification extends Component {
     return <div>{feedbackGiven ? children : <p>{message}</p>}</div>;
   }
 }
-//
